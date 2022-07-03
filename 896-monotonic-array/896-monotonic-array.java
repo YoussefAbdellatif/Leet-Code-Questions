@@ -1,6 +1,6 @@
 class Solution {
     public boolean isMonotonic(int[] nums) {
-         if (nums.length == 1){
+        if (nums.length == 1){
             return true;
         }
     boolean increaseingMonotonic= false;
@@ -22,8 +22,8 @@ class Solution {
                 break;
             }
         }
-        
-        
+
+
         return increaseingMonotonic||decreasingMonotonic;
     }
 }
