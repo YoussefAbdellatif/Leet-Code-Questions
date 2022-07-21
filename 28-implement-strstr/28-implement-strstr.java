@@ -1,5 +1,5 @@
 class Solution {
-        public int strStr(String haystack, String needle) {
+    public int strStr(String haystack, String needle) {
         if(needle.length() ==0){
             return 0;
         }
@@ -13,5 +13,4 @@ class Solution {
 
         return -1;
     }
-
 }
